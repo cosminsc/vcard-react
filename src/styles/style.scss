@@ -1,0 +1,441 @@
+@import './reset.css';
+@import './animate.css';
+@import '../../node_modules/bootstrap-grid/dist/grid.min.css';
+@import '../../node_modules/font-awesome/css/font-awesome.css';
+@import '../../node_modules/lightbox2/dist/css/lightbox.css';
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+$primary: #378a3f;
+$accent: #ffaa2c;
+$neutral: #191919;
+$neutralLight: #2d2d2d;
+$neutralSecondLight: #383838;
+
+$textWhite: #fff;
+$textGrayLight: #dadada;
+
+
+*:focus{
+   outline: none;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	background: $neutral;
+   color: #5a5a5a;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+p{
+	margin: 0 0 10.5px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	line-height: 100%;
+}
+
+
+/*------ HEADER -----------*/
+	.header{
+		background: $neutral;
+		position: fixed;
+		width: 150px;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+		border-right: 2px solid $primary
+	}
+
+		.header__title{
+			text-align: center;
+		}
+
+		.header__avatar{
+			background: #f1f1f1;
+			border-radius: 2000em;
+			width: 110px;
+			height: 110px;
+			padding: 3px 0 0 3px;
+			margin: 10px auto;
+		}
+			.header__avatar img{
+				width: 104px;
+				left: 15px;
+				border-radius: 50%;
+			}
+
+
+		.header__nav{
+			padding: 15px 0 0;
+			text-align: center;
+		}
+
+			.header__link{
+				color: $textWhite;
+				display: block;
+				background: $neutralLight;
+				padding: 15px 10px;
+				margin-bottom: 1px;
+				text-transform: uppercase;
+				font-size: 10px;
+				font-family: 'Montserrat', sans-serif;
+			}
+			.header__link.active:hover,
+			.header__link.active{
+				background: $primary;
+			}
+				.header__link:hover{
+					background: $neutralSecondLight;
+				}
+
+			.header__link .fa{
+				display: block;
+            font-size: 25px;
+			}
+
+
+/*------ SOCIAL -----------*/
+	.social{
+		text-align: center;
+	}
+		.social__item{
+			display: inline-block;
+			color: $neutralSecondLight;
+			font-size: 20px;
+			margin-right: 4px;
+		}
+
+		.social__item:hover{
+			color: $accent;
+		}
+
+
+/*------ AUTHOR -----------*/
+	.author{
+		text-align: center;
+		position: absolute;
+		bottom: 20%;
+		left: 50%;
+		z-index: 100;
+		margin-left: -148px;
+		text-align: center;
+	}
+		.author__position,
+		.author__name{
+			color: $textWhite;
+			font-size: 35px;
+			font-family: 'Indie Flower', cursive;
+		}
+			.author__name span{
+				display: block;
+				font-size: 60px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 700;
+			}
+
+		.author__position{
+			height: 60px;
+		}
+
+
+
+/*------ GRID -----------*/
+	.grid{
+		font-size: 17px;
+	}
+		.grid__item{
+			background: rgba(33, 33, 33, 0.8);
+			padding: 20px;
+			margin-bottom: 20px;
+			width: 49.25%;
+			color: $textGrayLight;
+		}
+
+			.grid__title{
+				font-style: normal;
+				font-weight: 600;
+				margin: 0 0 5px;
+				color: $primary;
+			}
+
+			.grid__content{
+				line-height: 25px;
+				font-size: 20px;
+				letter-spacing: 1px;
+				font-family: 'Indie Flower', cursive;
+			}
+
+			.grid_image{
+				width: 100%;
+				display: block;
+			}
+
+
+		.grid__item--portfolio{
+			padding: 0;
+         width: 32.25%;
+      }
+         .grid__item--portfolio .grid_image{
+            opacity: .8;
+         }
+         .grid__item--portfolio .grid_image:hover{
+            opacity: 1;
+         }
+
+		.grid__content--portfolio{
+			padding: 15px;
+		}
+
+
+/*------ LABELS -----------*/
+	.labels{
+		text-align: center;
+	}
+		.labels__item{
+			display: inline-block;
+			font-family: 'Raleway', sans-serif;
+			font-size: 13px;
+			background: #444444;
+			padding: 0 7px;
+			margin: 0 2px 2px 0;
+		}
+
+
+/*------ SKILL -----------*/
+	.skill{
+		margin-bottom: 60px;
+	}
+	.skill:last-child{
+		margin-bottom: 0;
+	}
+		.skill__item{
+			margin-bottom: 20px;
+		}
+		.skill__item:last-child{
+			margin-bottom: 0;
+		}
+			.skill__name{
+				color: $textWhite;
+				font-size: 14px;
+				margin-bottom: 5px;
+			}
+
+
+/*------ LISTNAME -----------*/
+   .work{
+
+   }
+      .work__item{
+         margin-bottom: 20px;
+      }
+      .work__item:last-child{
+         margin-bottom: 0;
+      }
+
+         .work__name{
+            font-size: 20px;
+            margin-bottom: 5px;
+            color: $primary;
+         }
+
+         .work__period{
+            font-size: 13px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+            display: inline-block;
+            padding: 4px;
+            background: rgba( $neutralSecondLight, .8 );
+         }
+
+         .work__description{
+            line-height: 24px;
+            letter-spacing: 1px;
+         }
+
+
+/*------ LISTNAME -----------*/
+	.listname{
+		border-left: 2px solid $accent;
+		padding-left: 10px;
+		font-size: 25px;
+		margin-bottom: 20px;
+   }
+
+   .listname--upspace{
+      margin-top: 60px;
+      border-left: 0;
+      padding-left: 0;
+   }
+
+   .listname--upspace .fa{
+      color: $accent;
+   }
+
+
+/*------ LINEBAR -----------*/
+	.linebar{
+		height: 5px;
+		background: $textGrayLight;
+	}
+		.linebar__progress{
+			@extend .linebar;
+			background: $primary;
+	}
+
+
+
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+
+.content{
+	padding: 0 0 0 150px;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+
+.widget{
+	background: rgba(33, 33, 33, 0.8);
+	padding: 20px;
+	margin-bottom: 20px;
+	color: $textGrayLight;
+}
+
+
+.headline {
+	font-size: 40px;
+	color: $textWhite;
+	width: auto;
+	display: block;
+	text-align: center;
+	padding: 40px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+
+.full-height{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+
+.loading{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -11px 0 0 -30px;
+}
+
+.loading > div > div {
+   background-color: $primary;
+}
+
+
+
+@media(min-width: 1130px) and (max-width: 1330px){
+   .container {
+      width: 970px;
+   }
+
+   .grid__item{
+      width: 49%;
+   }
+}
+
+@media(min-width: 1020px) and (max-width: 1130px){
+   .container {
+      width: 860px;
+   }
+
+   .grid__item{
+      width: 48%;
+   }
+}
+
+@media(max-width: 1020px){
+
+   .content{
+      padding-left: 0;
+   }
+
+   .grid__item{
+      width: 48%;
+   }
+
+
+   .header{
+      position: initial;
+      width: 100%;
+      border-right: 0;
+      border-bottom: 2px solid $primary;
+   }
+      .header__link{
+         display: inline-block;
+         background: none;
+         margin: 0 2px 0 0;
+         padding: 10px;
+      }
+         .header__link .fa {
+            font-size: 20px;
+         }
+
+
+   .author{
+      margin-left: -248px;
+   }
+
+   .listname{
+      font-size: 20px;
+   }
+}
+
+@media(max-width: 768px){
+
+   .widget .col-sm-6:first-child{
+      margin-bottom: 60px;
+   }
+
+   .grid__item{
+      width: 100%;
+   }
+}
+
+@media(max-width: 600px){
+
+
+   .author{
+      width: 300px;
+      margin-left: -150px;
+   }
+
+   .author__position,
+   .author__name{
+      font-size: 20px;
+   }
+      .author__name span{
+         font-size: 30px;
+      }
+}

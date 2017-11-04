@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Link, Switch, HashRouter } from 'react-
 import Root from "./components/Root";
 import Header from "./components/Header";
 import Home from "./pages/Home";
+import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
 import Testimonials from "./pages/Testimonials";
 import Notfound from "./pages/Notfound";
@@ -20,16 +21,17 @@ class App extends React.Component {
 
     render() {
         return (
-            <Router>
+            <HashRouter>
                 <Root>
                     <Switch>
                         <Route path="/" exact component={Home} />
+                        <Route path="/resume" component={Resume} />
                         <Route path="/portfolio" component={Portfolio} />
                         <Route path="/testimonials" component={Testimonials} />
                         <Route component={Notfound} />
                     </Switch>
                 </Root>
-            </Router>
+            </HashRouter>
         );
     }
 }
