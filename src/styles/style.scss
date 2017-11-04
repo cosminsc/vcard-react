@@ -421,6 +421,19 @@ h1, h2, h3, h4, h5, h6{
    .grid__item{
       width: 100%;
    }
+
+   .header__avatar,
+   .header__link .fa{
+      display: none;
+   }
+
+   .social{
+      padding-top: 10px;
+   }
+
+   .headline{
+      font-size: 30px;
+   }
 }
 
 @media(max-width: 600px){
