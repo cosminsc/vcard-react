@@ -1,7 +1,10 @@
 import React from "react";
+import PropTypes from 'prop-types';
+import $ from "jquery";
 import { PulseLoader } from 'react-spinners';
 
 import Header from "./Header";
+import { util } from "./util"
 
 export default class Root extends React.Component {
    constructor(props) {
@@ -16,7 +19,9 @@ export default class Root extends React.Component {
          this.setState({
             loading: false
          });
-      },1000);
+      }, 1000);
+
+      $(window).on('scroll', util.animateInView);
    }
 
 
@@ -29,10 +34,10 @@ export default class Root extends React.Component {
                   {this.props.children}
                </div>
             ) : (
-               <div className="loading">
-                  <PulseLoader loading={this.state.loading} />
-               </div>
-            )}
+                  <div className="loading">
+                     <PulseLoader loading={this.state.loading} />
+                  </div>
+               )}
          </div>
       );
    }

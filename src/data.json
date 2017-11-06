@@ -1,0 +1,354 @@
+{
+   "home": {
+      "title": "Cosmin's personal website",
+      "quotes": [
+         "I am a Creative Web Developer.",
+         "I focus on quality not quantity.",
+         "I like writing clean code.",
+         "I like the challenges.",
+         "I am learning from mistakes.",
+         "I develop myself continuously."
+      ]
+   },
+   "resume": {
+      "title": "Resume",
+      "about": {
+         "headline": "About Me",
+         "textblock": "&lt;p&gt;Hello,&lt;/p&gt;&lt;p&gt;This is Cosmin, a trusted person, responsible, and able to learn new things in a relatively short time. Curiosity and passion play an important role in the results I have in everything I do and honesty defines me, in other words I follow somehow the Karma principle: what you offer is what you receive, you know what I mean? That’s why I like to be an honest person.&lt;/p&gt; &lt;p&gt;I'm also not looking for excuses but for solutions in all the challenging problems I encounter. As I like to say: &lt;em&gt;\"As long as there is a problem, definitely there is a solution.\"&lt;/em&gt; That's my way of thinking and my main vision about life and stuff like that.&lt;/p&gt; &lt;p&gt;My journey towards web development has begun by the end of 2007 when I've started working and learning HTML, CSS and jQuery. I was building static templates as a hobby and also for several small forums at that time. This brought me a strong front-end experience which it's developing continuously by including:&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;Front End Frameworks&lt;/b&gt; - &lt;em&gt;Bootstrap (the popular one), I also worked with Foundation but I don’t really like it&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;CSS Preprocessors&lt;/b&gt; - &lt;em&gt;especially Sass (Syntactically Awesome StyleSheets)&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;BEM methodology&lt;/b&gt; - &lt;em&gt;Block Element Modifier is a methodology that helps you to create reusable components and code sharing in front-end development&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;Building and Automation Tools&lt;/b&gt; - &lt;em&gt;this is about NodeJS and working with NPM, GulpJS which can be used to automate image optimization, CSS and JS minifying, and other web performance tasks.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;ReactJS&lt;/b&gt; - &lt;em&gt;I’m also familiar with ReactJS which it takes the concept of splitting the web page into components and allows you to build such as components using javascript, reusable components, which you can then use for out your web page. This is not holding only the HTML code it also has some javascript logic which allows you to listen to user or actions, to display content dynamically or update the UI whenever you need to be updated. In other words ReactJS is a library for Creating User Interfaces.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;Version Control Systems&lt;/b&gt; - &lt;em&gt;I also have good skills of using Git&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;In terms of back-end experience, I have strong knowledge of Object-Oriented PHP. I’ve been working with PHP since 2009. Most of the past projects, I’ve been involved in, were built using Wordpress but I'm also starting getting familiar with Laravel framework.&lt;/p&gt; &lt;h3&gt;What makes you different then others?&lt;/h3&gt; &lt;p&gt;Well, very few web developers (or people in general) have the desire to learn continuously, to develop themselves, to work efficiently, to offer quality not quantity and to complete the projects successfully. I can say that I am among those few people who are constantly developing in everything they do. This helps me to bring quality of projects I am involved in, even if sometimes I use technologies or tools for the first time, the final result will definitely lead to satisfied customers.&lt;/p&gt;"
+      },
+      "skills": {
+         "headline": "Web Skills",
+         "groupList": [
+            {
+               "name": "Markup & Styling",
+               "list": [
+                  {
+                     "name": "HTML/CSS",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "Bootstrap",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "XML",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "JSON",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "Handlebars",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "Mustache",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "SASS",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "FontAwesome",
+                     "progress": "99%"
+                  }
+               ]
+            },
+            {
+               "name": "JavaScript & Libraries",
+               "list": [
+                  {
+                     "name": "jQuery",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "jQueryValidation",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "StoreJS",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "UnderscoreJS",
+                     "progress": "80%"
+                  },
+                  {
+                     "name": "QUnit",
+                     "progress": "70%"
+                  },
+                  {
+                     "name": "ReactJS",
+                     "progress": "60%"
+                  },
+                  {
+                     "name": "NodeJS",
+                     "progress": "30%"
+                  }
+               ]
+            },
+            {
+               "name": "Development & Build Tools",
+               "list": [
+                  {
+                     "name": "PHP",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "PHPUnit",
+                     "progress": "80%"
+                  },
+                  {
+                     "name": "Wordpress",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "Laravel",
+                     "progress": "50%"
+                  },
+                  {
+                     "name": "Git",
+                     "progress": "70%"
+                  },
+                  {
+                     "name": "NPM",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "Gulp",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "Vagrant",
+                     "progress": "60%"
+                  }
+               ]
+            }
+         ]
+      },
+      "work": {
+         "headline": "Work History",
+         "jobs": [
+            {
+               "name": "Freelancing",
+               "period": "Oct 2017 - Present",
+               "company": "",
+               "description": "Looking to work on project-based only."
+            },
+            {
+               "name": "Senior WordPress Developer",
+               "period": "Nov 2012 - Oct 2017",
+               "company": "Nego-Solutions.com",
+               "description": "Over the time I became the right person to be involved in WordPress development. Since I have completed successsfully the first project on Wordpress, I have worked on a variety of things related to Wordpress such as: custom themes, custom plugins, speed optimization, API integrations or maintenance services."
+            },
+            {
+               "name": "Web Designer",
+               "period": "Sept 2011 - Nov 2012",
+               "company": "Nego-Solutions.com",
+               "description": "I have started collaborating with Nego-Solutions as a web designer. I was responsible for creating landing pages, designing banners for Facebook/Twitter or any other custom kit branding."
+            },
+            {
+               "name": "Graphic Designer (Volunteer)",
+               "period": "Jan 2010 - Sept 2012 (part-time)",
+               "company": "ForumGratuit.ro",
+               "description": "I have joined the team of ForumGratuit.ro as a volunteer graphic designer. I have created any kind of graphic design packages for their customers. Besides this I learned and improved my knowledge of HTML/CSS and jQuery library by customizing static templates and forums."
+            },
+            {
+               "name": "Freelancing",
+               "period": "May 2007 - Sept 2010",
+               "company": "",
+               "description": "Miscellaneous graphic design projects."
+            }
+         ]
+      },
+      "education": {
+         "headline": "Education",
+         "classes": [
+            {
+               "name": "High School",
+               "period": "2005 - 2009",
+               "company": "",
+               "description": "Studied Natural Sciences at Nicolae Titulescu, Brasov, Romania"
+            }
+         ]
+      }
+   },
+   "portfolio":{
+      "title": "Some Of My Works",
+      "list": [
+         {
+            "thumb": "/images/portfolio/weblenis-310x413.png",
+            "image": "/images/portfolio/weblenis.png",
+            "tech": [
+               "Graphic Layout Design",
+               "Logo Design",
+               "Ad Banners Design"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/bearWallowEvents-310x260.jpeg",
+            "image": "/images/portfolio/bearWallowEvents.jpeg",
+            "tech": [
+               "Website Design",
+               "HTML/CSS",
+               "Wordpress"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/lotsOfHead-310x441.png",
+            "image": "/images/portfolio/lotsOfHead.png",
+            "tech": [
+               "HTML/CSS",
+               "Logo Design",
+               "Wordpress"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/weightLoss-310x594.png",
+            "image": "/images/portfolio/weightLoss.png",
+            "tech": [
+               "Website Design",
+               "e-Book Design",
+               "HTML/CSS",
+               "Sales page",
+               "Wordpress"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/bookAuthor-310x372.jpg",
+            "image": "/images/portfolio/bookAuthor.jpg",
+            "tech": [
+               "Website Design",
+               "HTML/CSS",
+               "Wordpress",
+               "Content Adding",
+               "Aweber Integration"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/homebrewvideos-310x398.png",
+            "image": "/images/portfolio/homebrewvideos.png",
+            "tech": [
+               "Website Design",
+               "Logo Design",
+               "e-Book Design",
+               "HTML/CSS",
+               "Wordpress",
+               "Sales page"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/alifelessanxious-310x492.jpg",
+            "image": "/images/portfolio/alifelessanxious.jpg",
+            "tech": [
+               "Website Design",
+               "Logo Design",
+               "e-Book Design",
+               "HTML/CSS",
+               "Wordpress",
+               "Sales Page"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/corechiro-310x284.png",
+            "image": "/images/portfolio/corechiro.png",
+            "tech": [
+               "HTML/CSS",
+               "Wordpress"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/greenbusiness-310x455.jpg",
+            "image": "/images/portfolio/greenbusiness.jpg",
+            "tech": [
+               "Graphic Layout Design"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/realEstate-310x413.jpg",
+            "image": "/images/portfolio/realEstate.jpg",
+            "tech": [
+               "Graphic Layout Design"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/wikiGames-310x269.jpg",
+            "image": "/images/portfolio/wikiGames.jpg",
+            "tech": [
+               "Graphic Layout Design"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/lyon-310x401.png",
+            "image": "/images/portfolio/lyon.png",
+            "tech": [
+               "Print Design"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/diChistina-310x432.jpg",
+            "image": "/images/portfolio/diChistina.jpg",
+            "tech": [
+               "Print Design"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/fitSpace-310x114.jpg",
+            "image": "/images/portfolio/fitSpace.jpg",
+            "tech": [
+               "Graphic Design"
+            ]
+         },
+         {
+            "thumb": "/images/portfolio/clothing-310x114.jpg",
+            "image": "/images/portfolio/clothing.jpg",
+            "tech": [
+               "Graphic Design"
+            ]
+         }
+      ]
+   },
+   "testimonials": {
+      "title": "What Do Clients Say?",
+      "list": [
+         {
+            "name": "Evelien van der Geest (Netherlands) says:",
+            "description": "Pleasant and good freelancer to work with. Communication and deliverables within time. Communication via Trello worked well. Quality of code very good (almost no bugs). Overall, pleasant cooperation!"
+         },
+         {
+            "name": "Jon Traister (United States) says:",
+            "description": "Cosmin Schiopu did an amazing job. I will use his services again."
+         },
+         {
+            "name": "Adrian Harrison (Australia) says:",
+            "description": "Great design skills. Gets job done on time and has great English!"
+         },
+         {
+            "name": "Frank van Driel (Netherlands) says:",
+            "description": "Cosmin is great! He is good and always available if you need him! 24/7"
+         },
+         {
+            "name": "Helen Tonetti (United Kingdom) says:",
+            "description": "I saw all the great feedback and thought I would give Cosmin a try, I am so glad I did, I will be back again and again. Great design, and he added his slant."
+         },
+         {
+            "name": "Nancy (United States) says:",
+            "description": "Cosmin was a pleasure to work with. He provided many design options, was always available, offered help more than expected. Will work with him again."
+         },
+         {
+            "name": "Steve Pavilanis (United States) says:",
+            "description": "Cosmin is simply amazing! Incredibly talented designer and hard worker. I hired him because he took the initiative to send me a mockup of a design I needed before I even formally hired him. His attention to detail and ability to follow my often confusing directions and turn around the work very quickly makes him a superstar! I have already hired him for other projects and he will be my go-to designer for all future projects."
+         },
+         {
+            "name": "Vinay Nair (India) says:",
+            "description": "Cosmin is one of the best designers I've worked with. Not only is his design skills excellent but his way of working is also very professional. All my emails were answered promptly. Cosmin was also quick to understand my requirements. He was also very cooperative when I requested any changes. All in all, a gem of a contractor. I recommend him highly!"
+         },
+         {
+            "name": "Jayson Thompson (United States) says:",
+            "description": "Cosmin does a great job. We communicate regularly and I am always impressed with the work. If you choose him, you will get exactly what you want and better. Thanks"
+         }
+      ]
+   }
+}

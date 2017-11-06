@@ -2,31 +2,20 @@ import React from "react";
 import Typed from 'typed.js';
 import $ from "jquery";
 
+const data = require('../data.json');
+
 export default class Home extends React.Component{
 
-   constructor(props){
-      super(props);
-
-      this.state = {
-         pageTitle: 'Home'
-      }
-   }
-
    componentDidMount() {
-      document.title = this.state.pageTitle;
+      document.title = data.home.title;
 
       new Typed(".author__position", {
-         strings: [
-            'I am a Creative Web Developer.',
-            'I am passionate about what I do!',
-            'I focus on quality not quantity!',
-            'I like challenges!'
-         ],
+         strings: data.home.quotes,
          loop: true,
          showCursor: false,
          startDelay: 1000,
-         backDelay: 2500,
-         typeSpeed: 30,
+         backDelay: 2200,
+         typeSpeed: 25,
          backSpeed: 20
       });
 
@@ -35,7 +24,6 @@ export default class Home extends React.Component{
 
       $('.author').addClass('animated zoomInDown');
       $('.content').addClass('animated fadeIn');
-      $('body').addClass('home-page');
    }
 
    render(){

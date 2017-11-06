@@ -1,12 +1,12 @@
 var path = require('path'),
    webpack = require('webpack'),
-   ExtractTextPlugin = require("extract-text-webpack-plugin");
+   ExtractTextPlugin = require("extract-text-webpack-plugin"),
+   UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 var DIST_DIR = path.resolve(__dirname, 'dist'),
    SRC_DIR = path.resolve(__dirname, 'src');
 
 var config = {
-   // entry: SRC_DIR + '/app/index.jsx',
    entry: {
       'js/app.js': SRC_DIR + '/index.jsx',
       // 'js/vendor.js': ['react', 'react-dom'],
@@ -28,78 +28,33 @@ var config = {
             }
          },
          {
-            test: /\.scss$/,
-            loader: ExtractTextPlugin.extract('css-loader!sass-loader')
+            test: /\.(css|scss)$/,
+            loader: ExtractTextPlugin.extract([ 'css-loader', 'sass-loader' ])
          },
-         // Fonts
+         // fonts
          {
-            test: /\.svg$/,
-            loader: 'url-loader',
-            options: {
-               limit: 65000,
-               mimetype: 'image/svg+xml',
-               // publicPath: 'assets/',
-               name: 'fonts/[name].[ext]'
-            }
-         },
-         {
-            test: /\.woff$/,
-            loader: 'url-loader',
-            options: {
-               limit: 65000,
-               mimetype: 'application/font-woff',
-               name: 'fonts/[name].[ext]'
-            }
-         },
-         {
-            test: /\.woff2$/,
-            loader: 'url-loader',
-            options: {
-               limit: 65000,
-               mimetype: 'application/font-woff2',
-               name: 'fonts/[name].[ext]'
-            }
-         },
-         {
-            test: /\.[ot]tf$/,
-            loader: 'url-loader',
-            options: {
-               limit: 65000,
-               mimetype: 'application/octet-stream',
-               name: 'fonts/[name].[ext]'
-            }
-         },
-         {
-            test: /\.eot$/,
-            loader: 'url-loader',
-            options: {
-               limit: 65000,
-               mimetype: 'application/vnd.ms-fontobject',
-               name: 'fonts/[name].[ext]'
-            }
+            test: /\.(eot|svg|ttf|woff|woff2)$/,
+            loader: 'url-loader?name=fonts/[name].[ext]'
          },
          // images
          {
             test: /\.(png|jpg|gif)$/,
             loader: 'url-loader',
-            // options: {
-            //    name: 'images/[name].[ext]'
-            // }
-         }
+         },
+         {
+            test: /\.json$/,
+            loader: 'json-loader'
+         },
       ]
    },
    plugins: [
       new ExtractTextPlugin('css/style.css', {
          allChunks: true
-      })
-      // new webpack.ProvidePlugin({
-      //    $: "jquery",
-      //    jQuery: "jquery",
-      //    "window.jQuery": "jquery"
-      // })
+      }),
+      // new UglifyJSPlugin()
    ],
    resolve: {
-      extensions: ['.js', '.jsx'],
+      extensions: ['.json', '.js', '.jsx'],
       alias: {
          'masonry': 'masonry-layout',
          'isotope': 'isotope-layout'
