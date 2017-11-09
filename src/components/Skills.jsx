@@ -5,6 +5,20 @@ import LineBar from "../components/LineBar";
 
 export default class Skills extends React.Component{
 
+   getSkillColor(procent){
+
+      let colors = {
+         30: "skill--basic",
+         50: "skill--entry",
+         70: "skill--medium",
+         90: "skill--strong"
+      },
+      array = Object.keys(colors),
+      closest = array.sort( (a, b) => Math.abs(parseInt(procent) - a) - Math.abs(parseInt(procent) - b) )[0];
+
+      return colors[closest];
+   }
+
    render(){
       let groups = this.props.groups;
 
@@ -16,7 +30,7 @@ export default class Skills extends React.Component{
                      <div className="group_name">{group.name}</div>
                      {group.list.map((skill, index) => {
                         return(
-                           <div className="skill" key={index}>
+                           <div className={"skill " + this.getSkillColor(skill.progress)} key={index} title={skill.progress}>
                               <div className="skill__name">{skill.name}</div>
                               <LineBar progress={skill.progress} />
                            </div>

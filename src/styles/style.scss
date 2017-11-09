@@ -249,8 +249,27 @@ h1, h2, h3, h4, h5, h6{
 			.skill__name{
 				color: $textWhite;
 				font-size: 13px;
-				margin-bottom: 5px;
-			}
+            background: $primary;
+            display: inline-block;
+            padding: 2px 5px;
+         }
+
+   .skill--basic .skill__name,
+   .skill--basic .linebar__progress{
+      background: #ff5800;
+   }
+   .skill--entry .skill__name,
+   .skill--entry .linebar__progress{
+      background: #ffaa2c;
+   }
+   .skill--medium .skill__name,
+   .skill--medium .linebar__progress{
+      background: #619266;
+   }
+   .skill--strong .skill__name,
+   .skill--strong .linebar__progress{
+      background: $primary;
+   }
 
 
 /*------ LISTNAME -----------*/
