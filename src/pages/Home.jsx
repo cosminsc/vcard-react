@@ -1,16 +1,15 @@
 import React from "react";
 import Typed from 'typed.js';
 import $ from "jquery";
-
-const data = require('../data.json');
+import PropTypes from 'prop-types';
 
 export default class Home extends React.Component{
 
    componentDidMount() {
-      document.title = data.home.title;
+      document.title = this.props.pageData.title;
 
       new Typed(".author__position", {
-         strings: data.home.quotes,
+         strings: this.props.pageData.quotes,
          loop: true,
          showCursor: false,
          startDelay: 1000,
@@ -38,4 +37,8 @@ export default class Home extends React.Component{
          </div>
       );
    }
+}
+
+Home.propTypes = {
+    pageData: PropTypes.object.isRequired
 }

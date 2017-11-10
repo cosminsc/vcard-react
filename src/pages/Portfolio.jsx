@@ -3,10 +3,9 @@ import $ from "jquery";
 import Isotope from "isotope-layout";
 import ImagesLoaded from "imagesloaded";
 import lightbox2 from "lightbox2";
+import PropTypes from 'prop-types';
 
 import Projects from "../components/Projects";
-
-const data = require('../data.json');
 
 export default class Portfolio extends React.Component {
 
@@ -18,7 +17,7 @@ export default class Portfolio extends React.Component {
    }
 
    componentDidMount() {
-      document.title = data.portfolio.title;
+      document.title = this.props.pageData.title;
 
       new ImagesLoaded('.grid', () => {
          new Isotope('.grid', {
@@ -47,11 +46,15 @@ export default class Portfolio extends React.Component {
          <div className="content" style={{ backgroundImage: "url(/images/bg/bg-portfolio.jpg)" }}>
             <div className="mask">
                <div className="container">
-                  <div className="page_title">{data.portfolio.title}</div>
-                  <Projects list={data.portfolio.list} />
+                  <div className="page_title">{this.props.pageData.title}</div>
+                  <Projects list={this.props.pageData.list} />
                </div>
             </div>
          </div>
       );
    }
+}
+
+Portfolio.propTypes = {
+    pageData: PropTypes.object.isRequired
 }

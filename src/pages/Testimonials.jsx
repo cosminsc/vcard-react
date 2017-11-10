@@ -1,10 +1,9 @@
 import React from "react";
 import $ from "jquery";
 import Isotope from "isotope-layout";
+import PropTypes from 'prop-types';
 
 import Quotes from "../components/Quotes";
-
-const data = require('../data.json');
 
 export default class Testimonials extends React.Component{
 
@@ -13,7 +12,7 @@ export default class Testimonials extends React.Component{
    }
 
    componentDidMount() {
-      document.title = data.testimonials.title;
+      document.title = this.props.pageData.title;
 
       new Isotope( '.grid', {
          itemSelector: '.grid__item',
@@ -40,11 +39,15 @@ export default class Testimonials extends React.Component{
          <div className="content" style={{backgroundImage: "url(/images/bg/bg-testimonials.jpg)"}}>
             <div className="mask">
                <div className="container">
-                  <div className="page_title">{data.testimonials.title}</div>
-                  <Quotes list={data.testimonials.list}/>
+                  <div className="page_title">{this.props.pageData.title}</div>
+                  <Quotes list={this.props.pageData.list}/>
                </div>
             </div>
          </div>
       );
    }
+}
+
+Testimonials.propTypes = {
+    pageData: PropTypes.object.isRequired
 }
