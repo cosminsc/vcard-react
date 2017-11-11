@@ -13,7 +13,6 @@ export default class Header extends React.Component{
                <ul className="social">
                   <li className="social__item" title="facebook"><a href="https://www.facebook.com/kosminsc" target="_blank"><i className="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                   <li className="social__item" title="linkedin"><a href="https://www.linkedin.com/in/cosmin-schiopu-35374b113/" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                  <li className="social__item" title="twitter"><a href="https://twitter.com/cosminsch" target="_blank"><i className="fa fa-twitter-square" aria-hidden="true"></i></a></li>
                   <li className="social__item" title="github"><a href="https://github.com/cosminsc" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a></li>
                </ul>
             </div>

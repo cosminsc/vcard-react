@@ -1,21 +1,42 @@
 {
    "home": {
-      "title": "Cosmin's personal website",
+      "title": "Home",
       "quotes": [
          "I am a Creative Web Developer.",
          "I focus on quality not quantity.",
          "I like writing clean code.",
          "I like the challenges.",
-         "I am learning from mistakes.",
-         "I develop myself continuously."
+         "I develop myself on a daily basis."
       ]
    },
    "resume": {
       "title": "Resume",
-      "about": {
-         "headline": "About Me",
-         "textblock": "&lt;p&gt;Hello,&lt;/p&gt;&lt;p&gt;This is Cosmin, a trusted person, responsible, and able to learn new things in a relatively short time. Curiosity and passion play an important role in the results I have in everything I do and honesty defines me, in other words I follow somehow the Karma principle: what you offer is what you receive, you know what I mean? That’s why I like to be an honest person.&lt;/p&gt; &lt;p&gt;I'm also not looking for excuses but for solutions in all the challenging problems I encounter. As I like to say: &lt;em&gt;\"As long as there is a problem, definitely there is a solution.\"&lt;/em&gt; That's my way of thinking and my main vision about life and stuff like that.&lt;/p&gt; &lt;p&gt;My journey towards web development has begun by the end of 2007 when I've started working and learning HTML, CSS and JavaScript. I was building static templates as a hobby and also for several small forums at that time. This brought me a strong front-end experience which it's developing continuously by including:&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;Front End Frameworks&lt;/b&gt; - &lt;em&gt;Bootstrap, Foundation, Material Design Light&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;CSS Preprocessors&lt;/b&gt; - &lt;em&gt;especially Sass (Syntactically Awesome StyleSheets)&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;BEM methodology&lt;/b&gt; - &lt;em&gt;Block Element Modifier is a methodology that helps you to create reusable components and code sharing in front-end development&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;Building and Automation Tools&lt;/b&gt; - &lt;em&gt;this is about NodeJS and working with NPM, GulpJS, Babel, Webpack.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;ReactJS&lt;/b&gt; - &lt;em&gt;I’m also familiar with ReactJS which it takes the concept of splitting the web page into components and allows you to build such as components using javascript, reusable components, which you can then use for out your web page. This is not holding only the HTML code it also has some javascript logic which allows you to listen to user or actions, to display content dynamically or update the UI whenever you need to be updated. In other words ReactJS is a library for Creating User Interfaces.&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;&lt;b&gt;Version Control Systems&lt;/b&gt; - &lt;em&gt;I also have good skills of using Git&lt;/em&gt;&lt;/p&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;In terms of back-end experience, I have strong knowledge of Object-Oriented PHP. I’ve been working with PHP since 2009. Most of the past projects, I’ve been involved in, were built using Wordpress but I'm also starting getting familiar with Laravel framework.&lt;/p&gt; &lt;h3&gt;What makes you different then others?&lt;/h3&gt; &lt;p&gt;Well, very few web developers (or people in general) have the desire to learn continuously, to develop themselves, to work efficiently, to offer quality not quantity and to complete the projects successfully. I can say that I am among those few people who are constantly developing in everything they do. This helps me to bring quality of projects I am involved in, even if sometimes I use technologies or tools for the first time, the final result will definitely lead to satisfied customers.&lt;/p&gt;"
-      },
+      "about": [
+         {
+            "headline": "A few words about you?",
+            "paragraphs": [
+               "This is Cosmin, a trusted person, responsible, and able to learn new things in a relatively short time. Curiosity and passion play an important role in the results I have in everything I do and honesty defines me, in other words I follow somehow the Karma principle: what you offer is what you receive, you know what I mean? That’s why I like to be an honest person.",
+               "I'm also not looking for excuses but for solutions in all the challenging problems I encounter. As I like to say: <em>\"As long as there is a problem, definitely there is a solution.\"</em> That's my way of thinking and my main vision about life and stuff like that.",
+               "My journey towards web development has begun by the end of 2007 when I've started working and learning HTML, CSS and JavaScript. I was building static templates as a hobby and also for several small forums at that time. <br />This has brought me a strong front-end experience which I develop on a daily basis by including:",
+               {
+                  "list": [
+                     "<b>Front End Frameworks</b> - <em>Bootstrap, Foundation, Material Design Light</em>",
+                     "<b>CSS Preprocessors</b> - <em>especially Sass (Syntactically Awesome StyleSheets)</em>",
+                     "<b>BEM methodology</b> - <em>Block Element Modifier is a methodology that helps you to create reusable components and code sharing in front-end development</em>",
+                     "<b>Building and Automation Tools</b> - <em>this is about NodeJS and working with NPM, GulpJS, Babel, Webpack.</em>",
+                     "<b>Version Control Systems</b> - <em>I also have good skills of using Git</em>"
+                  ]
+               },
+               "In terms of back-end experience, I have strong knowledge of Object-Oriented PHP. I’ve been working with PHP since 2009. Most of the past projects, I’ve been involved in, were built using Wordpress but I'm also starting getting familiar with Laravel framework."
+            ]
+         },
+         {
+            "headline": "What makes you different then others?",
+            "paragraphs": [
+               "Well, very few web developers (or people in general) have the desire to learn continuously, to develop themselves, to work efficiently, to focus on quality not quantity and to complete the projects successfully. I can say that I am among those few people who are constantly developing in everything they do. This helps me to bring quality of projects I am involved in, even if sometimes I use technologies or tools for the first time, the final result will definitely lead to satisfied customers."
+            ]
+         }
+      ],
       "skills": {
          "headline": "Web Skills",
          "groupList": [
@@ -146,21 +167,32 @@
             },
             {
                "name": "Web Designer",
-               "period": "Sept 2011 - Nov 2012",
+               "period": "Sep 2011 - Nov 2012",
                "company": "Nego-Solutions.com",
                "description": "I have started collaborating with Nego-Solutions as a web designer. I was responsible for creating landing pages, designing banners for Facebook/Twitter or any other custom kit branding."
             },
             {
                "name": "Graphic Designer (Volunteer)",
-               "period": "Jan 2010 - Sept 2012 (part-time)",
+               "period": "Jan 2010 - Sep 2012 (part-time)",
                "company": "ForumGratuit.ro",
                "description": "I have joined the team of ForumGratuit.ro as a volunteer graphic designer. I have created any kind of graphic design packages for their customers. Besides this I learned and improved my knowledge of HTML/CSS and jQuery library by customizing static templates and forums."
             },
             {
                "name": "Freelancing",
-               "period": "May 2007 - Sept 2010",
+               "period": "May 2007 - Sep 2010",
                "company": "",
                "description": "Miscellaneous graphic design projects."
+            }
+         ]
+      },
+      "certifications": {
+         "headline": "Courses",
+         "list": [
+            {
+               "name": "Master JavaScript Closures, Data Structures and Map/Reduce",
+               "period": "Nov 2017",
+               "company": "sitepoint.com",
+               "description": "This course focuses on the tools and techniques you need to understand to be effective and productive working on JavaScript in the real world."
             }
          ]
       },
@@ -176,7 +208,7 @@
          ]
       }
    },
-   "portfolio":{
+   "portfolio": {
       "title": "Some Of My Works",
       "list": [
          {

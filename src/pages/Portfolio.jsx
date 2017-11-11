@@ -2,22 +2,14 @@ import React from "react";
 import $ from "jquery";
 import Isotope from "isotope-layout";
 import ImagesLoaded from "imagesloaded";
-import lightbox2 from "lightbox2";
 import PropTypes from 'prop-types';
 
 import Projects from "../components/Projects";
 
 export default class Portfolio extends React.Component {
 
-   componentWillMount() {
-      $(window).scrollTop(0);
-
-      var wH = $(window).height();
-      $('.content').css({ height: wH });
-   }
-
    componentDidMount() {
-      document.title = this.props.pageData.title;
+      this.props.pageAnimate();
 
       new ImagesLoaded('.grid', () => {
          new Isotope('.grid', {
@@ -29,16 +21,6 @@ export default class Portfolio extends React.Component {
             }
          });
       });
-
-      var wH = $(window).height();
-      $('.content, .mask').css({ 'min-height': wH });
-
-      $('.content').addClass('animated fadeIn');
-
-      if($(window).width() > 1024){
-         $('.grid').addClass('animated bounceInUp');
-         $('.page_title').addClass('animated bounceInDown');
-      }
    }
 
    render() {
@@ -56,5 +38,6 @@ export default class Portfolio extends React.Component {
 }
 
 Portfolio.propTypes = {
-    pageData: PropTypes.object.isRequired
+    pageData: PropTypes.object.isRequired,
+    pageAnimate: PropTypes.func.isRequired
 }

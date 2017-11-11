@@ -1,5 +1,5 @@
 import React from "react";
-import $ from "jquery";
+import lightbox2 from "lightbox2";
 
 export default class Projects extends React.Component{
 

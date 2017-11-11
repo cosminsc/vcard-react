@@ -7,12 +7,8 @@ import Quotes from "../components/Quotes";
 
 export default class Testimonials extends React.Component{
 
-   componentWillMount() {
-      $(window).scrollTop(0);
-   }
-
    componentDidMount() {
-      document.title = this.props.pageData.title;
+      this.props.pageAnimate();
 
       new Isotope( '.grid', {
          itemSelector: '.grid__item',
@@ -22,16 +18,6 @@ export default class Testimonials extends React.Component{
             // isFitWidth: true
          }
       });
-
-      var wH = $(window).height();
-      $('.content, .mask').css({'min-height': wH});
-
-      $('.content').addClass('animated fadeIn');
-
-      if($(window).width() > 1024){
-         $('.grid').addClass('animated bounceInUp');
-         $('.page_title').addClass('animated bounceInDown');
-      }
    }
 
    render(){
@@ -49,5 +35,6 @@ export default class Testimonials extends React.Component{
 }
 
 Testimonials.propTypes = {
-    pageData: PropTypes.object.isRequired
+    pageData: PropTypes.object.isRequired,
+    pageAnimate: PropTypes.func.isRequired
 }

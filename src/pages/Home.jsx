@@ -1,12 +1,11 @@
 import React from "react";
 import Typed from 'typed.js';
-import $ from "jquery";
 import PropTypes from 'prop-types';
 
 export default class Home extends React.Component{
 
    componentDidMount() {
-      document.title = this.props.pageData.title;
+      this.props.pageAnimate();
 
       new Typed(".author__position", {
          strings: this.props.pageData.quotes,
@@ -17,12 +16,6 @@ export default class Home extends React.Component{
          typeSpeed: 25,
          backSpeed: 20
       });
-
-      var wH = $(window).height();
-      $('.content, .mask').css({'min-height': wH});
-
-      $('.author').addClass('animated zoomInDown');
-      $('.content').addClass('animated fadeIn');
    }
 
    render(){
@@ -40,5 +33,6 @@ export default class Home extends React.Component{
 }
 
 Home.propTypes = {
-    pageData: PropTypes.object.isRequired
+    pageData: PropTypes.object.isRequired,
+    pageAnimate: PropTypes.func.isRequired
 }

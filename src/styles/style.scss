@@ -43,6 +43,7 @@ a{
 	color: inherit;
 }
 
+li,
 p{
    margin: 0 0 10px;
    line-height: 20px;
@@ -291,8 +292,8 @@ h1, h2, h3, h4, h5, h6{
          border-radius: 10px;
          width: 12px;
          height: 12px;
-         top: 35px;
-         left: -30px;
+         top: 5px;
+         left: -29px;
          background: $neutralSecondLight;
          z-index: 2;
       }
@@ -303,8 +304,8 @@ h1, h2, h3, h4, h5, h6{
          background-color: $neutralSecondLight;
          width: 29px;
          height: 2px;
-         top: 40px;
-         left: -30px;
+         top: 10px;
+         left: -28px;
          z-index: 1;
       }
 
@@ -335,7 +336,7 @@ h1, h2, h3, h4, h5, h6{
    }
 
    .group_name--upspace{
-      margin-top: 60px;
+      margin-top: 40px;
       border-left: 0;
       padding-left: 0;
    }
@@ -404,9 +405,12 @@ h1, h2, h3, h4, h5, h6{
       color: $accent;
    }
 
-.text_block{
+.text{
    margin-bottom: 60px;
 }
+   .text__section:first-child h3{
+      margin-top: 0;
+   }
 
 
 .full-height{
@@ -544,16 +548,13 @@ h1, h2, h3, h4, h5, h6{
       margin: 20px 0 0 10px;
    }
    .timeline__item:before{
-      width: 12px;
-      height: 12px;
-      top: 32px;
-      left: -18px;
+      width: 10px;
+      height: 10px;
+      left: -16px;
    }
    .timeline__item:after{
-      width: 18px;
-      height: 2px;
-      top: 37px;
-      left: -18px;
+      width: 15px;
+      left: -15px;
    }
       .timeline__name {
          font-size: 17px;
