@@ -10,6 +10,7 @@ export default class TimeLines extends React.Component {
 
       return (
          <div className="timeline">
+            <div className="headline" dangerouslySetInnerHTML={{__html: this.props.headline}} />
             {jobs.map((job, index) => {
                return (
                   <div className="timeline__item" key={index}>
@@ -25,7 +26,7 @@ export default class TimeLines extends React.Component {
                         </div>
                         ) : ''}
                         <div className="timeline__name">{job.name}</div>
-                        <div className="timeline__description">{job.description}</div>
+                        <div className="timeline__description" dangerouslySetInnerHTML={{__html: job.description}} />
                   </div>
                );
             })}

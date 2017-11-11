@@ -39,8 +39,8 @@ body{
 }
 
 a{
+   color: $accent;
 	text-decoration: none;
-	color: inherit;
 }
 
 li,
@@ -276,14 +276,20 @@ h1, h2, h3, h4, h5, h6{
 /*------ LISTNAME -----------*/
    .timeline{
       @extend .nolist;
-      border-left: 2px solid $neutralSecondLight;
+      margin-bottom: 40px;
+   }
+   @media(min-width: 768px){
+      .timeline:last-child{
+         margin-bottom: 0;
+      }
    }
       .timeline__item{
-         margin: 20px 0 0 22px;
+         padding: 0 0 20px 15px;
          position: relative;
+         border-left: 2px solid $neutralSecondLight;
       }
       .timeline__item:last-child{
-         margin-bottom: 0;
+         padding-bottom: 0;
       }
       .timeline__item:before{
          content: '';
@@ -293,7 +299,7 @@ h1, h2, h3, h4, h5, h6{
          width: 12px;
          height: 12px;
          top: 5px;
-         left: -29px;
+         left: -7px;
          background: $neutralSecondLight;
          z-index: 2;
       }
@@ -302,10 +308,10 @@ h1, h2, h3, h4, h5, h6{
          display: inline-block;
          position: absolute;
          background-color: $neutralSecondLight;
-         width: 29px;
+         width: 15px;
          height: 2px;
          top: 10px;
-         left: -28px;
+         left: 0;
          z-index: 1;
       }
 
@@ -406,7 +412,7 @@ h1, h2, h3, h4, h5, h6{
    }
 
 .text{
-   margin-bottom: 60px;
+   margin-bottom: 40px;
 }
    .text__section:first-child h3{
       margin-top: 0;
@@ -545,19 +551,19 @@ h1, h2, h3, h4, h5, h6{
 @media(max-width: 400px){
 
    .timeline__item {
-      margin: 20px 0 0 10px;
+      padding-left: 10px;
    }
    .timeline__item:before{
       width: 10px;
       height: 10px;
-      left: -16px;
+      top: 6px;
+      left: -6px;
    }
    .timeline__item:after{
-      width: 15px;
-      left: -15px;
+      width: 10px;
    }
       .timeline__name {
-         font-size: 17px;
+         font-size: 18px;
       }
       .timeline__company, .timeline__period {
          font-size: 11px;

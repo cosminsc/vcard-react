@@ -17,7 +17,7 @@
             "paragraphs": [
                "This is Cosmin, a trusted person, responsible, and able to learn new things in a relatively short time. Curiosity and passion play an important role in the results I have in everything I do and honesty defines me, in other words I follow somehow the Karma principle: what you offer is what you receive, you know what I mean? That’s why I like to be an honest person.",
                "I'm also not looking for excuses but for solutions in all the challenging problems I encounter. As I like to say: <em>\"As long as there is a problem, definitely there is a solution.\"</em> That's my way of thinking and my main vision about life and stuff like that.",
-               "My journey towards web development has begun by the end of 2007 when I've started working and learning HTML, CSS and JavaScript. I was building static templates as a hobby and also for several small forums at that time. <br />This has brought me a strong front-end experience which I develop on a daily basis by including:",
+               "My journey towards web development has begun by the end of 2007 when I've started working and learning HTML, CSS and JavaScript. I was building static templates as a hobby and also for several small forums at that time. <br />This has brought me a strong front-end experience which I develop continuously by including:",
                {
                   "list": [
                      "<b>Front End Frameworks</b> - <em>Bootstrap, Foundation, Material Design Light</em>",
@@ -123,6 +123,14 @@
                "name": "Development & Build Tools",
                "list": [
                   {
+                     "name": "NPM",
+                     "progress": "99%"
+                  },
+                  {
+                     "name": "Gulp",
+                     "progress": "99%"
+                  },
+                  {
                      "name": "PHPUnit",
                      "progress": "80%"
                   },
@@ -135,12 +143,8 @@
                      "progress": "70%"
                   },
                   {
-                     "name": "NPM",
-                     "progress": "99%"
-                  },
-                  {
-                     "name": "Gulp",
-                     "progress": "99%"
+                     "name": "Webpack",
+                     "progress": "65%"
                   },
                   {
                      "name": "Vagrant",
@@ -151,7 +155,7 @@
          ]
       },
       "work": {
-         "headline": "Work History",
+         "headline": "<i class=\"fa fa-line-chart\"></i> Work History",
          "jobs": [
             {
                "name": "Freelancing",
@@ -162,19 +166,19 @@
             {
                "name": "Senior WordPress Developer",
                "period": "Nov 2012 - Oct 2017",
-               "company": "Nego-Solutions.com",
+               "company": "nego-solutions.com",
                "description": "Over the time I became the right person to be involved in WordPress development. Since I have completed successsfully the first project on Wordpress, I have worked on a variety of things related to Wordpress such as: custom themes, custom plugins, speed optimization, API integrations or maintenance services."
             },
             {
                "name": "Web Designer",
                "period": "Sep 2011 - Nov 2012",
-               "company": "Nego-Solutions.com",
+               "company": "nego-solutions.com",
                "description": "I have started collaborating with Nego-Solutions as a web designer. I was responsible for creating landing pages, designing banners for Facebook/Twitter or any other custom kit branding."
             },
             {
                "name": "Graphic Designer (Volunteer)",
                "period": "Jan 2010 - Sep 2012 (part-time)",
-               "company": "ForumGratuit.ro",
+               "company": "forumgratuit.ro",
                "description": "I have joined the team of ForumGratuit.ro as a volunteer graphic designer. I have created any kind of graphic design packages for their customers. Besides this I learned and improved my knowledge of HTML/CSS and jQuery library by customizing static templates and forums."
             },
             {
@@ -185,19 +189,19 @@
             }
          ]
       },
-      "certifications": {
-         "headline": "Courses",
+      "courses": {
+         "headline": "<i class=\"fa fa-bookmark\"></i> Courses",
          "list": [
             {
                "name": "Master JavaScript Closures, Data Structures and Map/Reduce",
                "period": "Nov 2017",
                "company": "sitepoint.com",
-               "description": "This course focuses on the tools and techniques you need to understand to be effective and productive working on JavaScript in the real world."
+               "description": "This course focuses on the tools and techniques you need to understand to be effective and productive working on JavaScript in the real world. Get firmly grounded in the fundamentals of intermediate JavaScript with an eye to the future of this remarkable and evolving language.<br/><a href=\"/pdf/certificate1.pdf\" target=\"__blank\">See Certificate</a>"
             }
          ]
       },
       "education": {
-         "headline": "Education",
+         "headline": "<i class=\"fa fa-graduation-cap\"></i> Education",
          "classes": [
             {
                "name": "High School",

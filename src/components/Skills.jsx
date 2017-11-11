@@ -9,8 +9,8 @@ export default class Skills extends React.Component{
 
       let colors = {
          30: "skill--basic",
-         50: "skill--entry",
-         70: "skill--medium",
+         60: "skill--entry",
+         75: "skill--medium",
          90: "skill--strong"
       },
       array = Object.keys(colors),

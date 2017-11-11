@@ -23,18 +23,14 @@ export default class Resume extends React.Component {
                      <About text={pageData.about} />
 
                      <div className="row">
-                        <div className="col-sm-6">
+                        <div className="col-sm-7">
+                           <TimeLines list={pageData.courses.list} headline={pageData.courses.headline} />
+                           <TimeLines list={pageData.work.jobs} headline={pageData.work.headline} />
+                           <TimeLines list={pageData.education.classes} headline={pageData.education.headline} />
+                        </div>
+                        <div className="col-sm-5">
                            <div className="headline"><i className="fa fa-code" aria-hidden="true"></i> {pageData.skills.headline}</div>
                            <Skills groups={pageData.skills.groupList} />
-                        </div>
-
-                        <div className="col-sm-6">
-                           <div className="headline"><i className="fa fa-line-chart" aria-hidden="true"></i> {pageData.work.headline}</div>
-                           <TimeLines list={pageData.work.jobs} />
-                           <div className="headline headline--upspace"><i className="fa fa-bookmark" aria-hidden="true"></i> {pageData.certifications.headline}</div>
-                           <TimeLines list={pageData.certifications.list} />
-                           <div className="headline headline--upspace"><i className="fa fa-graduation-cap" aria-hidden="true"></i> {pageData.education.headline}</div>
-                           <TimeLines list={pageData.education.classes} />
                         </div>
                      </div>
                   </div>
