@@ -11,7 +11,9 @@ export default class LineBar extends React.Component{
    render(){
       return(
          <div className="linebar">
-            <div className="linebar__progress animateInView" data-animation="slideInLeft" style={{width: this.props.progress}}></div>
+            <div className="linebar__progress animateInView" data-animation="slideInLeft" style={{width: this.props.progress}}>
+               <span>{this.props.progress}</span>
+            </div>
          </div>
       );
    }

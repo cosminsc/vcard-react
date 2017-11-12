@@ -90,7 +90,7 @@
                   },
                   {
                      "name": "Redux",
-                     "progress": "100%"
+                     "progress": "90%"
                   },
                   {
                      "name": "React",
@@ -124,23 +124,23 @@
                "list": [
                   {
                      "name": "NPM",
-                     "progress": "99%"
+                     "progress": "100%"
                   },
                   {
                      "name": "Gulp",
-                     "progress": "99%"
+                     "progress": "100%"
                   },
                   {
                      "name": "PHPUnit",
-                     "progress": "80%"
+                     "progress": "85%"
                   },
                   {
                      "name": "QUnit",
-                     "progress": "70%"
+                     "progress": "80%"
                   },
                   {
                      "name": "Git",
-                     "progress": "70%"
+                     "progress": "90%"
                   },
                   {
                      "name": "Webpack",
@@ -148,7 +148,7 @@
                   },
                   {
                      "name": "Vagrant",
-                     "progress": "60%"
+                     "progress": "70%"
                   }
                ]
             }

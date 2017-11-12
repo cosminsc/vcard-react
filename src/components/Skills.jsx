@@ -8,10 +8,10 @@ export default class Skills extends React.Component{
    getSkillColor(procent){
 
       let colors = {
-         30: "skill--basic",
-         60: "skill--entry",
-         75: "skill--medium",
-         90: "skill--strong"
+         10: "skill--basic",
+         50: "skill--entry",
+         80: "skill--good",
+         100: "skill--strong"
       },
       array = Object.keys(colors),
       closest = array.sort( (a, b) => Math.abs(parseInt(procent) - a) - Math.abs(parseInt(procent) - b) )[0];
