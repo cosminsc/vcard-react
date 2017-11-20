@@ -12,7 +12,7 @@ export default class Home extends React.Component{
          loop: true,
          showCursor: false,
          startDelay: 1000,
-         backDelay: 2200,
+         backDelay: 2000,
          typeSpeed: 25,
          backSpeed: 20
       });

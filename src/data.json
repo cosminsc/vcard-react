@@ -4,7 +4,6 @@
       "quotes": [
          "I am a Creative Web Developer.",
          "I focus on quality not quantity.",
-         "I like writing clean code.",
          "I like the challenges.",
          "I develop myself on a daily basis."
       ]
@@ -17,13 +16,13 @@
             "paragraphs": [
                "This is Cosmin, a trusted person, responsible, and able to learn new things in a relatively short time. Curiosity and passion play an important role in the results I have in everything I do and honesty defines me, in other words I follow somehow the Karma principle: what you offer is what you receive, you know what I mean? That’s why I like to be an honest person.",
                "I'm also not looking for excuses but for solutions in all the challenging problems I encounter. As I like to say: <em>\"As long as there is a problem, definitely there is a solution.\"</em> That's my way of thinking and my main vision about life and stuff like that.",
-               "My journey towards web development has begun by the end of 2007 when I've started working and learning HTML, CSS and JavaScript. I was building static templates as a hobby and also for several small forums at that time. <br />This has brought me a strong front-end experience which I develop continuously by including:",
+               "My journey towards web development has begun by the end of 2007 when I've started working and learning HTML, CSS and JavaScript. I was building static templates as a hobby and also for several small sites at that time. <br />This has brought me a strong front-end experience which I develop continuously by including:",
                {
                   "list": [
-                     "<b>Front End Frameworks</b> - <em>Bootstrap, Foundation, Material Design Light</em>",
+                     "<b>Front End Frameworks</b> - <em>Bootstrap, Foundation, Semantic-UI, Material Design Light</em>",
                      "<b>CSS Preprocessors</b> - <em>especially Sass (Syntactically Awesome StyleSheets)</em>",
-                     "<b>BEM methodology</b> - <em>Block Element Modifier is a methodology that helps you to create reusable components and code sharing in front-end development</em>",
-                     "<b>Building and Automation Tools</b> - <em>this is about NodeJS and working with NPM, GulpJS, Babel, Webpack.</em>",
+                     "<b>BEM methodology</b> - <em>(Block Element Modifier) is a methodology that helps you to create reusable components and code sharing in front-end development</em>",
+                     "<b>Building and Automation Tools</b> - <em>this is about NodeJS and working with NPM, Gulp, Babel, Webpack.</em>",
                      "<b>Version Control Systems</b> - <em>I also have good skills of using Git</em>"
                   ]
                },
@@ -89,8 +88,12 @@
                      "progress": "100%"
                   },
                   {
-                     "name": "Redux",
+                     "name": "TweenLite",
                      "progress": "90%"
+                  },
+                  {
+                     "name": "Redux",
+                     "progress": "80%"
                   },
                   {
                      "name": "React",
