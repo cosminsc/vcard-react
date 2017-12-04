@@ -89,7 +89,7 @@
                   },
                   {
                      "name": "TweenLite",
-                     "progress": "90%"
+                     "progress": "75%"
                   },
                   {
                      "name": "Redux",
@@ -164,7 +164,7 @@
                "name": "Freelancing",
                "period": "Oct 2017 - Present",
                "company": "",
-               "description": "Looking to work on project-based only."
+               "description": "Looking for one-time projects only."
             },
             {
                "name": "Senior WordPress Developer",
